@@ -1,5 +1,3 @@
-/*eslint-disable*/
-
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import { createClient } from "next-sanity";

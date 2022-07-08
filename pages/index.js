@@ -1,3 +1,5 @@
+/*eslint-disable*/
+
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -847,7 +849,7 @@ export default function Home({ blogs, profile, form }) {
               </p>
             </div>
             <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-              (+91) 6234467836
+              (+91) 6203561878
             </p>
           </div>
           <div
@@ -859,7 +861,7 @@ export default function Home({ blogs, profile, form }) {
               </p>
             </div>
             <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-              CodeWithAbdur@gmail.com
+              codewithabdur@gmail.com
             </p>
           </div>
           <div
@@ -893,7 +895,7 @@ export default function Home({ blogs, profile, form }) {
               id="email" placeholder="Give me your Email" />
             <button
               className="mt-2 rounded bg-yellow px-8 py-3 font-body text-base font-bold uppercase text-primary transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring focus:ring-yellow sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
-              <a href="https://rzp.io/l/AmHxSSwy" target="_blank">JOIN ME</a>
+              <a href="https://rzp.io/l/LK0TBRlFQ" target="_blank">JOIN ME</a>
             </button>
           </form>
         </div>

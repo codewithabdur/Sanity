@@ -1,3 +1,5 @@
+/*eslint-disable*/
+
 import React from 'react'
 
 const NavBar = ({profile}) => { 
@@ -73,7 +75,7 @@ const NavBar = ({profile}) => {
 
                 <li className="group pl-6">
 
-                  <a href="https://codewithabdur.github.io/CodeWithAbdur/" target="_blank"
+                  <a href="https://codewithabdur.github.io/CodeWithAbdur/" 
                     className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Contact</a>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
@@ -99,6 +101,4 @@ const NavBar = ({profile}) => {
 }
 
   
-
-
 export default NavBar

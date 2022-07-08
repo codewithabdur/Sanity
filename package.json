@@ -1,15 +1,18 @@
 {
   "name": "next-frontend",
   "version": "0.1.0",
+  "homepage": "https://codewithabdur.github.io/Portfolio/",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "axios": "^0.27.2",
+    "isomorphic-fetch": "^3.0.0",
     "next": "12.2.0",
     "next-sanity": "^0.5.2",
     "nodemailer": "^6.7.6",

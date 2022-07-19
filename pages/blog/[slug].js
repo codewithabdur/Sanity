@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import Head from 'next/head'
 import { createClient } from "next-sanity";
 import PortableText from "react-portable-text"
-import NavBar from '../../components/navbar'
+import NavBar from "../../components/NavBar"
 import link from 'next/link';
 
 const Post = ({ blog, profile }) => {

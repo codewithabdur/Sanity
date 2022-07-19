@@ -61,11 +61,11 @@ export default function Home({ blogs, profile, form }) {
           name="description"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
 
-        <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
+        <link rel="icon" type="image/png" href="./favicon.ico" />
 
         <meta name="theme-color" content="#5540af" />
 
-        <meta property="og:site_name" content="Atom Template" />
+        <meta property="og:site_name" content="CODEWITHABDUR" />
 
         <meta property="og:image" content="//assets/img/social.jpg" />
 

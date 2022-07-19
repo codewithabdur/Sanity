@@ -37,7 +37,7 @@ export default function Home({ blogs, profile, form }) {
       <Head>
         <meta charset="utf-8" />
 
-        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+        <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
 
         <meta
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -74,7 +74,7 @@ export default function Home({ blogs, profile, form }) {
         <meta name="twitter:site" content="@tailwindmade" />
 
         <link
-          crossorigin="crossorigin"
+          crossOrigin="crossOrigin"
           href="https://fonts.gstatic.com"
           rel="preconnect" />
 
@@ -92,7 +92,7 @@ export default function Home({ blogs, profile, form }) {
           rel="stylesheet" />
 
         <link
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
           href="/assets/styles/main.min.css"
           media="screen"
           rel="stylesheet" />
@@ -110,7 +110,7 @@ export default function Home({ blogs, profile, form }) {
       <div className="w-full z-50 top-0 py-3 sm:py-5  absolute ">
         <div className="container flex items-center justify-between">
           <div>
-            <a href="/">
+            <a href="https://codewithabdur-portfolio.netlify.app/" target="_blank"  rel="noreferrer" >
              <h2 className='text-white text-2xl font-bold'>{profile.title}</h2>
             </a>
           </div>
@@ -175,7 +175,7 @@ export default function Home({ blogs, profile, form }) {
 
               <li className="group pl-6">
 
-              <a href="https://codewithabdur.github.io/Form/" target="_blank"><span
+              <a href="https://codewithabdur.github.io/Form/" target="_blank"  rel="noreferrer"><span
                   className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Contact</span>
 
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span></a>
@@ -270,29 +270,29 @@ export default function Home({ blogs, profile, form }) {
             </div>
             <div className="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
               <h1 className="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
-                Hello I'm {profile.name}!
+                Hello I&apos;m {profile.name}!
               </h1>
               <div className="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
                 <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
-                  <p className="font-body text-lg uppercase text-white">Let's connect</p>
+                  <p className="font-body text-lg uppercase text-white">Let&apos;s connect</p>
                   <div className="hidden sm:block">
                     <i className="bx bx-chevron-right text-3xl text-yellow"></i>
                   </div>
                 </div>
                 <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-                  <a href="https://www.facebook.com/profile.php?id=100064823755797" target="_blank" className="pl-4">
+                  <a href="https://www.facebook.com/profile.php?id=100064823755797" target="_blank"  rel="noreferrer" className="pl-4">
                     <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
                   </a>
-                  <a href="https://twitter.com/CodeWithAbdur" target="_blank" className="pl-4">
+                  <a href="https://twitter.com/CodeWithAbdur" target="_blank"  rel="noreferrer" className="pl-4">
                     <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
                   </a>
-                  <a href="https://www.youtube.com/c/lucygamer01" target="_blank" className="pl-4">
+                  <a href="https://www.youtube.com/c/lucygamer01" target="_blank"  rel="noreferrer" className="pl-4">
                     <i className="bx bxl-youtube text-2xl text-white hover:text-yellow"></i>
                   </a>
-                  <a href="https://www.linkedin.com/in/ark-gamerz-857150244/" target="_blank" className="pl-4">
+                  <a href="https://www.linkedin.com/in/ark-gamerz-857150244/" target="_blank"  rel="noreferrer" className="pl-4">
                     <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
                   </a>
-                  <a href="https://www.instagram.com/codewithabdur/" target="_blank" className="pl-4">
+                  <a href="https://www.instagram.com/codewithabdur/" target="_blank"  rel="noreferrer" className="pl-4">
                     <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
                   </a>
                 </div>
@@ -312,7 +312,7 @@ export default function Home({ blogs, profile, form }) {
               Who am I?
             </h2>
             <h4 className="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-              I'm Abdur, a Web Designer & Animator.
+              I&apos;m Abdur, a Web Designer & Animator.
             </h4>
             <p className="pt-6 font-body leading-relaxed text-grey-20">
               A web developer is a programmer who develops World Wide Web applications using a client–server model. The applications typically use HTML, CSS and JavaScript in the client, PHP, ASP.NET (C#), Python, Node.js, Go or Java in the server, and http for communications between client and server. A web developer may specialize in client-side applications (front-end developer), server-side applications (back-end developer), or both (full-stack developer).
@@ -328,19 +328,19 @@ export default function Home({ blogs, profile, form }) {
                 </div>
               </div>
               <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-                <a href="https://www.facebook.com/profile.php?id=100064823755797" target="_blank" className="pl-4" >
+                <a href="https://www.facebook.com/profile.php?id=100064823755797" target="_blank"  rel="noreferrer" className="pl-4" >
                   <i className="bx bxl-facebook-square text-2xl text-primary hover:text-yellow"></i>
                 </a>
-                <a href="https://twitter.com/CodeWithAbdur" target="_blank" className="pl-4">
+                <a href="https://twitter.com/CodeWithAbdur" target="_blank"  rel="noreferrer" className="pl-4">
                   <i className="bx bxl-twitter text-2xl text-primary hover:text-yellow"></i>
                 </a>
-                <a href="https://www.youtube.com/c/lucygamer01" target="_blank" className="pl-4">
+                <a href="https://www.youtube.com/c/lucygamer01" target="_blank"  rel="noreferrer" className="pl-4">
                   <i className="bx bxl-youtube text-2xl text-primary hover:text-yellow"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/ark-gamerz-857150244/" target="_blank" className="pl-4">
+                <a href="https://www.linkedin.com/in/ark-gamerz-857150244/" target="_blank"  rel="noreferrer" className="pl-4">
                   <i className="bx bxl-linkedin text-2xl text-primary hover:text-yellow"></i>
                 </a>
-                <a href="https://www.instagram.com/codewithabdur/" target="_blank" className="pl-4">
+                <a href="https://www.instagram.com/codewithabdur/" target="_blank"  rel="noreferrer" className="pl-4">
                   <i className="bx bxl-instagram text-2xl text-primary hover:text-yellow"></i>
                 </a>
               </div>
@@ -393,7 +393,7 @@ export default function Home({ blogs, profile, form }) {
 
       <div className="container py-16 md:py-20" id="services">
         <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-          Here's what I'm good at
+          Here&apos;s what I&apos;m good at
         </h2>
         <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
           These are the services I  offer
@@ -516,23 +516,23 @@ export default function Home({ blogs, profile, form }) {
           Check out my Portfolio
         </h2>
         <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-          Here's what I have done with the past
+          Here&apos;s what I have done with the past
         </h3>
 
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
-          <a href="https://codewithabdur.github.io/CodeWithAbdur/" target="_blank" 
+          <a href="https://codewithabdur.github.io/CodeWithAbdur/" target="_blank"  rel="noreferrer" 
           className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <img src="/assets/img/portfolio-apple.png" className="w-full shadow" alt="portfolio image" />
           </a>
-          <a href="https://codewithabdur.github.io/CodeWithAbdur_Particle/"  target ="_blank" 
+          <a href="https://codewithabdur.github.io/CodeWithAbdur_Particle/"  target ="_blank" rel="noreferrer"
           className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <img src="/assets/img/portfolio-stripe.jpeg" className="w-full shadow" alt="portfolio image" />
           </a>
-          <a href="https://codewithabdur.github.io/CodeWithAbdur/" target="_blank" 
+          <a href="https://codewithabdur.github.io/CodeWithAbdur/" target="_blank"  rel="noreferrer" 
           className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <img src="/assets/img/portfolio-fedex.jpeg" className="w-full shadow" alt="portfolio image" />
           </a>
-          <a href="https://codewithabdur.github.io/CodeWithAbdur_Particle/"  target ="_blank" 
+          <a href="https://codewithabdur.github.io/CodeWithAbdur_Particle/"  target ="_blank"  rel="noreferrer"
           className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <img src="/assets/img/portfolio-microsoft.jpeg" className="w-full shadow" alt="portfolio image" />
           </a>
@@ -574,7 +574,7 @@ export default function Home({ blogs, profile, form }) {
           My work experience
         </h2>
         <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-          Here's what I did before freelancing
+          Here&apos;s what I did before freelancing
         </h3>
 
         <div className="relative mx-auto mt-12 flex w-full flex-col lg:w-2/3">
@@ -663,7 +663,7 @@ export default function Home({ blogs, profile, form }) {
                     <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">DevOps
                       Engineer</span>
                     <div className="pt-2">
-                      <span className="block font-body text-black">Sep., 1993. Mezak, Steve (25 January 2018). "The Origins of DevOps: What's in a Name?". devops.com. Retrieved 6 May 2019. Debois, Patrick (9 October 2008).</span>
+                      <span className="block font-body text-black">Sep., 1993. Mezak, Steve (25 January 2018). &quot;The Origins of DevOps: What&apos;s in a Name?&quot;. devops.com. Retrieved 6 May 2019. Debois, Patrick (9 October 2008).</span>
                     </div>
                   </div>
                 </div>
@@ -805,7 +805,7 @@ export default function Home({ blogs, profile, form }) {
 
       <div className="container py-16 md:py-20" id="contact">
         <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-          Here's a contact form
+          Here&apos;s a contact form
         </h2>
         <h4 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
           Have Any Questions?
@@ -830,7 +830,7 @@ export default function Home({ blogs, profile, form }) {
             placeholder="message" id="message" cols="30" rows="10"></textarea>
           
           <button
-            className="mt-6 flex items-center justify-center rounded bg-primary px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-20"><a href="https://codewithabdur.github.io/Form/" target="_blank">Send</a>
+            className="mt-6 flex items-center justify-center rounded bg-primary px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-20"><a href="https://codewithabdur.github.io/Form/" target="_blank"  rel="noreferrer">Send</a>
             <a href='https://codewithabdur.github.io/Form/'></a>
             <i className="bx bx-chevron-right relative -right-2 text-3xl"></i>
           </button>
@@ -893,7 +893,7 @@ export default function Home({ blogs, profile, form }) {
               id="email" placeholder="Give me your Email" />
             <button
               className="mt-2 rounded bg-yellow px-8 py-3 font-body text-base font-bold uppercase text-primary transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring focus:ring-yellow sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
-              <a href="https://rzp.io/l/LK0TBRlFQ" target="_blank">JOIN ME</a>
+              <a href="https://rzp.io/l/LK0TBRlFQ" target="_blank"  rel="noreferrer">JOIN ME</a>
             </button>
           </form>
         </div>
@@ -904,19 +904,19 @@ export default function Home({ blogs, profile, form }) {
               © Copyright 2022. All right reserved, CODEWITHABDUR.
             </p>
             <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
-              <a href="https://www.facebook.com/profile.php?id=100064823755797" target="_blank">
+              <a href="https://www.facebook.com/profile.php?id=100064823755797" target="_blank"  rel="noreferrer">
                 <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
               </a>
-              <a href="https://twitter.com/CodeWithAbdur" target="_blank" className="pl-4">
+              <a href="https://twitter.com/CodeWithAbdur" target="_blank"  rel="noreferrer" className="pl-4">
                 <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
               </a>
-              <a href="https://www.youtube.com/c/lucygamer01" target="_blank" className="pl-4">
+              <a href="https://www.youtube.com/c/lucygamer01" target="_blank"  rel="noreferrer" className="pl-4">
                 <i className="bx bxl-youtube text-2xl text-white hover:text-yellow"></i>
               </a>
-              <a href="https://www.linkedin.com/in/ark-gamerz-857150244/" target="_blank" className="pl-4">
+              <a href="https://www.linkedin.com/in/ark-gamerz-857150244/" target="_blank"  rel="noreferrer" className="pl-4">
                 <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
               </a>
-              <a href="https://www.instagram.com/codewithabdur/" target="_blank" className="pl-4">
+              <a href="https://www.instagram.com/codewithabdur/" target="_blank"  rel="noreferrer" className="pl-4">
                 <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
               </a>
             </div>

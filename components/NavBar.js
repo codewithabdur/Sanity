@@ -8,7 +8,7 @@ const NavBar = ({profile}) => {
         <div className="w-full z-50 top-0 py-3 sm:py-5  bg-primary ">
           <div className="container flex items-center justify-between mx-auto">
             <div className=' '>
-              <a href="/">
+              <a href="">
               <h2 className='text-white text-2xl font-bold'>{profile.title}</h2>
               </a>
             </div>
@@ -17,7 +17,7 @@ const NavBar = ({profile}) => {
 
                 <li className="group pl-6">
 
-                  <a href="/#about"
+                  <a href="#about"
                     className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">About</a>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
@@ -25,7 +25,7 @@ const NavBar = ({profile}) => {
 
                 <li className="group pl-6">
 
-                  <a href="/#services"
+                  <a href="#services"
                     className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Services</a>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
@@ -33,7 +33,7 @@ const NavBar = ({profile}) => {
 
                 <li className="group pl-6">
 
-                  <a href="/#portfolio"
+                  <a href="#portfolio"
                     className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Portfolio</a>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
@@ -41,7 +41,7 @@ const NavBar = ({profile}) => {
 
                 <li className="group pl-6">
 
-                  <a href="/#clients"
+                  <a href="#clients"
                     className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Clients</a>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
@@ -49,7 +49,7 @@ const NavBar = ({profile}) => {
 
                 <li className="group pl-6">
 
-                  <a href="/#work"
+                  <a href="#work"
                     className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Work</a>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
@@ -57,7 +57,7 @@ const NavBar = ({profile}) => {
 
                 <li className="group pl-6">
 
-                  <a href="/#statistics"
+                  <a href="#statistics"
                     className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">Statistics</a>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
@@ -65,7 +65,7 @@ const NavBar = ({profile}) => {
 
                 <li className="group pl-6">
 
-                  <a href="/#blog"
+                  <a href="#blog"
                     className="cursor-pointe pt-0.5 font-header font-semibold uppercase text-white">blog</a>
 
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>

@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { createClient } from "next-sanity";
 import PortableText from "react-portable-text"
 import NavBar from '../../components/navbar'
+import link from 'next/link';
 
 const Post = ({ blog, profile }) => {
   const router = useRouter()
@@ -40,19 +41,19 @@ const Post = ({ blog, profile }) => {
 
       <meta name="twitter:site" content="@tailwindmade" />
 
-      <a crossOrigin="crossOrigin" href="https://fonts.gstatic.com" rel="preconnect" />
+      <link crossOrigin="crossOrigin" href="https://fonts.gstatic.com" rel="preconnect" />
 
-      <a as="style"
+      {/* <link as="style"
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
         rel="preload" />
 
-      <a
+      <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
-        rel="stylesheet" />
+        rel="stylesheet" /> */}
 
       <a href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
 
-      <a crossOrigin="anonymous" href="/assets/styles/main.min.css" media="screen" rel="stylesheet" />
+      {/* <link crossOrigin="anonymous" href="/assets/styles/main.min.css" media="screen" rel="stylesheet" /> */}
 
       <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
 
@@ -60,7 +61,7 @@ const Post = ({ blog, profile }) => {
 
 
 
-      <a rel="stylesheet"
+      <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/atom-one-dark.min.css" />
 
 
@@ -78,7 +79,7 @@ const Post = ({ blog, profile }) => {
             </h1>
             <div className="flex items-center pt-5 md:pt-10">
               <div>
-                <img src="/assets/img/blog-author1.png"
+               <img src="/assets/img/blog-author1.png"
                   className="h-20 w-20 rounded-full border-2 border-grey-70 shadow"
                   alt="author image" />
               </div>
@@ -105,13 +106,13 @@ const Post = ({ blog, profile }) => {
 
           </div>
           <div className="mt-10 flex justify-between border-t border-lila py-12">
-            <a href="/" className="flex items-center">
+            <a href="" className="flex items-center">
               <i className="bx bx-left-arrow-alt text-2xl text-primary"></i>
               <span
                 className="block pl-2 font-body text-lg font-bold uppercase text-primary md:pl-5">Previous
                 Post</span>
             </a>
-            <a href="/" className="flex items-center">
+            <a href="" className="flex items-center">
               <span className="block pr-2 font-body text-lg font-bold uppercase text-primary md:pr-5">Next
                 Post</span>
               <i className="bx bx-right-arrow-alt text-2xl text-primary"></i>
@@ -120,7 +121,7 @@ const Post = ({ blog, profile }) => {
           <div
             classNameName="flex flex-col items-center border-t border-lila py-12 pt-12 md:flex-row md:items-start xl:pb-20">
             <div classNameName="w-3/4 sm:w-2/5 lg:w-1/4 xl:w-1/5">
-              <img src="/assets/img/blog-author.png" className="rounded-full shadow" alt="author image" />
+             <img src="/assets/img/blog-author.png" className="rounded-full shadow" alt="author image" />
             </div>
             <div className="ml-0 text-center md:ml-10 md:w-5/6 md:text-left">
               <h3 className="pt-10 font-body text-2xl font-bold text-secondary md:pt-0">
@@ -133,19 +134,19 @@ const Post = ({ blog, profile }) => {
 
               </p>
               <div className="flex items-center justify-center pt-5 md:justify-start">
-                <a href="https://www.facebook.com/profile.php?id=100064823755797" target="_blank">
+                <a href="https://www.facebook.com/profile.php?id=100064823755797" target="_blank" rel="noreferrer">
                   <i className="bx bxl-facebook-square text-2xl text-primary hover:text-yellow"></i>
                 </a>
-                <a href="https://twitter.com/CodeWithAbdur" target="_blank" className="pl-4">
+                <a href="https://twitter.com/CodeWithAbdur" target="_blank" rel="noreferrer" className="pl-4">
                   <i className="bx bxl-twitter text-2xl text-primary hover:text-yellow"></i>
                 </a>
-                <a href="https://www.youtube.com/c/lucygamer01" target="_blank" className="pl-4">
+                <a href="https://www.youtube.com/c/lucygamer01" target="_blank" rel="noreferrer" className="pl-4">
                   <i className="bx bxl-youtube text-2xl text-primary hover:text-yellow"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/ark-gamerz-857150244/" target="_blank" className="pl-4">
+                <a href="https://www.linkedin.com/in/ark-gamerz-857150244/" target="_blank" rel="noreferrer" className="pl-4">
                   <i className="bx bxl-linkedin text-2xl text-primary hover:text-yellow"></i>
                 </a>
-                <a href="https://www.instagram.com/codewithabdur/" target="_blank" className="pl-4">
+                <a href="https://www.instagram.com/codewithabdur/" target="_blank" rel="noreferrer" className="pl-4">
                   <i className="bx bxl-instagram text-2xl text-primary hover:text-yellow"></i>
                 </a>
               </div>
@@ -161,19 +162,19 @@ const Post = ({ blog, profile }) => {
           © Copyright 2022. All right reserved, CODEWITHABDUR.
         </p>
         <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
-          <a href="https://www.facebook.com/profile.php?id=100064823755797" target="_blank">
+          <a href="https://www.facebook.com/profile.php?id=100064823755797" target="_blank" rel="noreferrer">
             <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
           </a>
-          <a href="https://twitter.com/CodeWithAbdur" target="_blank" className="pl-4">
+          <a href="https://twitter.com/CodeWithAbdur" target="_blank" rel="noreferrer" className="pl-4">
             <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
           </a>
-          <a href="https://www.youtube.com/c/lucygamer01" target="_blank" className="pl-4">
+          <a href="https://www.youtube.com/c/lucygamer01" target="_blank" rel="noreferrer" className="pl-4">
             <i className="bx bxl-youtube text-2xl text-white hover:text-yellow"></i>
           </a>
-          <a href="https://www.linkedin.com/in/ark-gamerz-857150244/" target="_blank" className="pl-4">
+          <a href="https://www.linkedin.com/in/ark-gamerz-857150244/" target="_blank" rel="noreferrer" className="pl-4">
             <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
           </a>
-          <a href="https://www.instagram.com/codewithabdur/" target="_blank" className="pl-4">
+          <a href="https://www.instagram.com/codewithabdur/" target="_blank" rel="noreferrer" className="pl-4">
             <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
           </a>
         </div>

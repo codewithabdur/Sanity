@@ -143,11 +143,11 @@ export default function Home({ blogs, profile, form }) {
 
               <li className="group pl-6">
 
-                {/* <a href='#clients'><span
+                 <a href='#clients'><span
                   className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Clients</span></a>
 
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li> */}
+              </li> 
 
               <li className="group pl-6">
 
@@ -545,7 +545,7 @@ export default function Home({ blogs, profile, form }) {
         </div>
       </div>
 
-       {/* <div className="bg-grey-50" id="clients">
+        <div className="bg-grey-50" id="clients">
         <div className="container py-16 md:py-20">
           <div className="mx-auto w-full sm:w-3/4 lg:w-full">
             <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
@@ -573,7 +573,7 @@ export default function Home({ blogs, profile, form }) {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="container py-16 md:py-20" id="work">
         <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">

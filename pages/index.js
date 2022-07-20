@@ -289,11 +289,14 @@ export default function Home({ blogs, profile, form }) {
                   <a href="https://www.youtube.com/c/lucygamer01" target="_blank"  rel="noreferrer" className="pl-4">
                     <i className="bx bxl-youtube text-2xl text-white hover:text-yellow"></i>
                   </a>
-                  <a href="https://www.linkedin.com/in/ark-gamerz-857150244/" target="_blank"  rel="noreferrer" className="pl-4">
+                  <a href="https://www.linkedin.com/in/%F0%9F%91%8B-codewithabdur-857150244/" target="_blank"  rel="noreferrer" className="pl-4">
                     <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
                   </a>
                   <a href="https://www.instagram.com/codewithabdur/" target="_blank"  rel="noreferrer" className="pl-4">
                     <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
+                  </a>
+                   <a href="https://github.com/codewithabdur/Sanity" target="_blank"  rel="noreferrer" className="pl-4">
+                    <i className="bx bxl-github text-2xl text-white hover:text-yellow"></i>
                   </a>
                 </div>
               </div>
@@ -337,12 +340,15 @@ export default function Home({ blogs, profile, form }) {
                 <a href="https://www.youtube.com/c/lucygamer01" target="_blank"  rel="noreferrer" className="pl-4">
                   <i className="bx bxl-youtube text-2xl text-primary hover:text-yellow"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/ark-gamerz-857150244/" target="_blank"  rel="noreferrer" className="pl-4">
+                <a href="https://www.linkedin.com/in/%F0%9F%91%8B-codewithabdur-857150244/" target="_blank"  rel="noreferrer" className="pl-4">
                   <i className="bx bxl-linkedin text-2xl text-primary hover:text-yellow"></i>
                 </a>
                 <a href="https://www.instagram.com/codewithabdur/" target="_blank"  rel="noreferrer" className="pl-4">
                   <i className="bx bxl-instagram text-2xl text-primary hover:text-yellow"></i>
                 </a>
+                  <a href="https://github.com/codewithabdur/Sanity" target="_blank"  rel="noreferrer" className="pl-4">
+                    <i className="bx bxl-github text-2xl text-white hover:text-yellow"></i>
+                  </a>
               </div>
             </div>
           </div>
@@ -913,12 +919,15 @@ export default function Home({ blogs, profile, form }) {
               <a href="https://www.youtube.com/c/lucygamer01" target="_blank"  rel="noreferrer" className="pl-4">
                 <i className="bx bxl-youtube text-2xl text-white hover:text-yellow"></i>
               </a>
-              <a href="https://www.linkedin.com/in/ark-gamerz-857150244/" target="_blank"  rel="noreferrer" className="pl-4">
+              <a href="https://www.linkedin.com/in/%F0%9F%91%8B-codewithabdur-857150244/" target="_blank"  rel="noreferrer" className="pl-4">
                 <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
               </a>
               <a href="https://www.instagram.com/codewithabdur/" target="_blank"  rel="noreferrer" className="pl-4">
                 <i className="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
               </a>
+                <a href="https://github.com/codewithabdur/Sanity" target="_blank"  rel="noreferrer" className="pl-4">
+                    <i className="bx bxl-github text-2xl text-white hover:text-yellow"></i>
+                  </a>
             </div>
           </div>
         </div></></>

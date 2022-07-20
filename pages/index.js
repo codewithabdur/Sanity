@@ -824,19 +824,19 @@ export default function Home({ blogs, profile, form }) {
             <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">If Send button is not working then please try to click on the send text in button.</h3>
         </div>
 {/* =========================================================================================================================        */}
-        <form className="mx-auto w-full pt-10 sm:w-3/4">
+        <form action="https://formspree.io/f/mvoljopq" method="POST" className="mx-auto w-full pt-10 sm:w-3/4">
           <div className="flex flex-col md:flex-row">
             <input className="mr-3 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:w-1/2 lg:mr-5"
-              placeholder="Name" type="name" id="name" />
+              placeholder="Name" type="name" id="exampleInputName1" />
             <input
               className="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-0 md:ml-3 md:w-1/2 lg:ml-5"
-              placeholder="email" type="email" id="email" />
+              placeholder="email" type="email" id="exampleInputEmail1" />
           </div>
           <textarea className="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-8"
             placeholder="message" id="message" cols="30" rows="10"></textarea>
           
           <button
-            className="mt-6 flex items-center justify-center rounded bg-primary px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-20"><a href="https://codewithabdur.github.io/Form/" target="_blank"  rel="noreferrer">Send</a>
+            className="mt-6 flex items-center justify-center rounded bg-primary px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-20"><a type="submit" value="send" href="https://codewithabdur.github.io/Form/" target="_blank"  rel="noreferrer">Send</a>
             <a href='https://codewithabdur.github.io/Form/'></a>
             <i className="bx bx-chevron-right relative -right-2 text-3xl"></i>
           </button>

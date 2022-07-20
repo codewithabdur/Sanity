@@ -347,7 +347,7 @@ export default function Home({ blogs, profile, form }) {
                   <i className="bx bxl-instagram text-2xl text-primary hover:text-yellow"></i>
                 </a>
                   <a href="https://github.com/codewithabdur/Sanity" target="_blank"  rel="noreferrer" className="pl-4">
-                    <i className="bx bxl-github text-2xl text-white hover:text-yellow"></i>
+                    <i className="bx bxl-github text-2xl text-primary hover:text-yellow"></i>
                   </a>
               </div>
             </div>

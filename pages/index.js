@@ -534,13 +534,13 @@ export default function Home({ blogs, profile, form }) {
           className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <img src="/assets/img/portfolio-stripe.jpeg" className="w-full shadow" alt="portfolio image" />
           </a>
-          <a href="https://codewithabdur.github.io/CodeWithAbdur/" target="_blank"  rel="noreferrer" 
+          <a href="https://codewithabdur-portfolio.netlify.app/" target="_blank"  rel="noreferrer" 
           className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-            <img src="/assets/img/portfolio-fedex.jpeg" className="w-full shadow" alt="portfolio image" />
+            <img src="/assets/img/blog-author-3.png" className="w-full shadow" alt="portfolio image" />
           </a>
-          <a href="https://codewithabdur.github.io/CodeWithAbdur_Particle/"  target ="_blank"  rel="noreferrer"
+          <a href="https://codewithabdur.github.io/CodeWithAbdur-About/"  target ="_blank"  rel="noreferrer"
           className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-            <img src="/assets/img/portfolio-microsoft.jpeg" className="w-full shadow" alt="portfolio image" />
+            <img src="/assets/img/Blog-about.png" className="w-full shadow" alt="portfolio image" />
           </a>
         </div>
       </div>

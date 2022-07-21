@@ -830,10 +830,10 @@ export default function Home({ blogs, profile, form }) {
               placeholder="Name" type="name" id="exampleInputName1" />
             <input
               className="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-0 md:ml-3 md:w-1/2 lg:ml-5"
-              placeholder="email" type="email" id="exampleInputEmail1" />
+              placeholder="email" required type="email" id="exampleInputEmail1" />
           </div>
           <textarea className="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-8"
-            placeholder="message" id="message" cols="30" rows="10"></textarea>
+            placeholder="message" required id="message" cols="30" rows="10"></textarea>
           
           <button
             className="mt-6 flex items-center justify-center rounded bg-primary px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-20"><a type="submit" value="send" href="https://codewithabdur.github.io/Form/" target="_blank"  rel="noreferrer">Send</a>
@@ -852,8 +852,8 @@ export default function Home({ blogs, profile, form }) {
                 My Phone
               </p>
             </div>
-            <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-              (+91) 6203561878
+            <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg"><a href="tel:61878 61878">
+              (+91) 61878 61878</a>
             </p>
           </div>
           <div
@@ -864,8 +864,8 @@ export default function Home({ blogs, profile, form }) {
                 My Email
               </p>
             </div>
-            <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-              codewithabdur@gmail.com
+            <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg"><a href="mailto:codewithabdur@gmail.com">
+              codewithabdur@gmail.com</a>
             </p>
           </div>
           <div
@@ -896,7 +896,7 @@ export default function Home({ blogs, profile, form }) {
           </h3>
           <form className="mt-6 flex flex-col justify-center sm:flex-row">
             <input className="w-full rounded px-4 py-3 font-body text-black sm:w-2/5 sm:py-4 lg:w-1/3" type="text"
-              id="email" placeholder="Give me your Email" />
+              id="email" placeholder="Give me your Email" required />
             <button
               className="mt-2 rounded bg-yellow px-8 py-3 font-body text-base font-bold uppercase text-primary transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring focus:ring-yellow sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
               <a href="https://rzp.io/l/LK0TBRlFQ" target="_blank"  rel="noreferrer">JOIN ME</a>

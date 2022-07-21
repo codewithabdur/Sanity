@@ -827,7 +827,7 @@ export default function Home({ blogs, profile, form }) {
         <form action="https://formspree.io/f/mvoljopq" method="POST" className="mx-auto w-full pt-10 sm:w-3/4">
           <div className="flex flex-col md:flex-row">
             <input className="mr-3 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:w-1/2 lg:mr-5"
-              placeholder="Name" type="name" id="exampleInputName1" />
+              placeholder="Name" required type="name" id="exampleInputName1" />
             <input
               className="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-0 md:ml-3 md:w-1/2 lg:ml-5"
               placeholder="email" required type="email" id="exampleInputEmail1" />
